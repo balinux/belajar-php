@@ -7,3 +7,4 @@ $age = 20;
 
 echo "nama saya $name, umur saya $age\n";
 echo "nama saya " . $name . ", umur saya " . $age . "\n";
+
