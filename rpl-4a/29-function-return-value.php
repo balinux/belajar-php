@@ -1,6 +1,8 @@
 <?php
 
+// ini ada fungsi untuk menghitung luas persegi panjang
 function menghitungLuasPersegiPanjang(int $panjang, int $lebar){
+    // $hasil adalah untuk menampung luas
     $hasil = $panjang * $lebar;
     return $hasil;
 }
