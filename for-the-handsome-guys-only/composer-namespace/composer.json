@@ -1,0 +1,15 @@
+{
+    "name": "balinux/composer-namespace",
+    "autoload": {
+        "psr-4": {
+            "Balinux\\ComposerNamespace\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "balinux",
+            "email": "ryojuniyantara@gmail.com"
+        }
+    ],
+    "require": {}
+}
