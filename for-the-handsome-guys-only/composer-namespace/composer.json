@@ -2,7 +2,7 @@
     "name": "balinux/composer-namespace",
     "autoload": {
         "psr-4": {
-            "Balinux\\ComposerNamespace\\": "src/"
+            "Src\\": "src/"
         }
     },
     "authors": [
