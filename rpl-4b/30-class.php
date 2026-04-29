@@ -5,7 +5,7 @@ class Person{
     // kumpulan property/variabel
     public string $name;
     public string $address;
-    public string $age;
+    public string $umur;
 
 
     // method untuk menyapa orang lain
@@ -13,17 +13,20 @@ class Person{
 
     function sayHello(string $name) {
         // halo mas $name alamatku di 
-        echo "halo mas $name alamatku di $this->address";
+        echo "halo mas $name alamatku di $this->address, umurku $this->umur";
     }
 
-    public function __construct(int $age){
-        echo "ini pasti dipanggil pertama kali".PHP_EOL;
+    // cara ke2 mengubah property
+    public function __construct(string $umur){
+        // mengubah nilai property umur
+        $this->umur = $umur;
     }
 
     // tugas buat contoh contant dan keyword self
 }
 
 
-$mahasiswa = new Person();
+$mahasiswa = new Person("40");
 $mahasiswa->address = "rumbuk";
+
 $mahasiswa->sayHello("budi");
