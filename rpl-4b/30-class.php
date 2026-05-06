@@ -3,7 +3,7 @@
 class Person{
 
     // kumpulan property/variabel
-    public string $name;
+    private string $name;
     public string $address;
     public string $umur;
 
@@ -28,5 +28,6 @@ class Person{
 
 $mahasiswa = new Person("40");
 $mahasiswa->address = "rumbuk";
+$mahasiswa->name = "budi";
 
 $mahasiswa->sayHello("budi");
