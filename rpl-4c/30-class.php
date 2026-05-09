@@ -1,15 +1,15 @@
 <?php
 
 class Person{
-    // properti
-  public string $name;  
+    // property
+  private string $name;  
   public string $address;
 
   public int $ageProperty;
 
   const VERSI_APLIKASI = "1.0.0";
 
-  // method
+  // method -> function yang ada di dalam class
   public function sayHello(string $name){
     // halo nama kamu adalah: fulan
     echo "halo nama kamu adalah: $name dan alamat di: $this->address".PHP_EOL;
@@ -30,7 +30,8 @@ public function __construct(int $ageParameter){
 // menjalankan fungsi construct
 $mahasiswa = new Person(20);
 // ubah property
-$mahasiswa->address = "selong";
+$mahasiswa->name = "abdullah";
+echo $mahasiswa->name.PHP_EOL;
 
 // memanggil function
-$mahasiswa->sayHello("kamal");
+// $mahasiswa->sayHello("kamal");
